@@ -23,26 +23,26 @@ export const SOCIALS = [
     {
         icon: '/socials/behance.png',
         alt: 'Behance logo',
-        href: 'https://www.behance.net/'
+        href: 'https://gritifi.myportfolio.com/'
     },
     {
         icon: '/socials/instagram.png',
         alt: 'Instagram logo',
-        href: 'https://www.instagram.com/'
+        href: 'https://www.instagram.com/gritifi/'
     },
     {
         icon: '/socials/linkedin.png',
         alt: 'Linkedin logo',
-        href: 'https://www.linkedin.com/'
+        href: 'https://www.linkedin.com/company/gritifi/'
     },
     {
         icon: '/socials/pinterest.png',
         alt: 'Pinterest logo',
-        href: 'https://www.pinterest.com/'
+        href: 'https://www.pinterest.com/gritifi_dsns/'
     },
     {
         icon: '/socials/tik-tok.png',
         alt: 'TikTok logo',
-        href: 'https://www.tiktok.com/'
+        href: 'https://www.tiktok.com/@gritifi6?_t=ZN-8x72y88oK38&_r=1'
     },
 ]
