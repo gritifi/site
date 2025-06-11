@@ -3,8 +3,8 @@ import { Inter, Hubballi } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Gritifi - Strategic, Thoughtful Graphic Design & Visual Identity Development",
-  description: "At Gritifi, we create strategic, fresh, and personalized visual identities that speak with clarity and purpose. Through thoughtful design and effective strategy, we help brands communicate with intention, empathy, and creativity - leaving a lasting impact",
+  title: "Gritifi | Strategic Brand Identity Studio for Visionary Brands",
+  description: "Build a brand identity that stands out. Gritifi crafts high-end brand identities for ambitious businesses ready to invest in bold, strategic design that drives results.",
 };
 
 export const viewport: Viewport = {
