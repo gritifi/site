@@ -18,3 +18,31 @@ export const CONTENT = {
         title: 'Ready to turn your vision into something real? Let’s connect and craft a brand that feels just like you...'
     }
 }
+
+export const SOCIALS = [
+    {
+        icon: '/socials/behance.png',
+        alt: 'Behance logo',
+        href: 'https://www.behance.net/'
+    },
+    {
+        icon: '/socials/instagram.png',
+        alt: 'Instagram logo',
+        href: 'https://www.instagram.com/'
+    },
+    {
+        icon: '/socials/linkedin.png',
+        alt: 'Linkedin logo',
+        href: 'https://www.linkedin.com/'
+    },
+    {
+        icon: '/socials/pinterest.png',
+        alt: 'Pinterest logo',
+        href: 'https://www.pinterest.com/'
+    },
+    {
+        icon: '/socials/tik-tok.png',
+        alt: 'TikTok logo',
+        href: 'https://www.tiktok.com/'
+    },
+]
