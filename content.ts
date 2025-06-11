@@ -23,7 +23,7 @@ export const SOCIALS = [
     {
         icon: '/socials/behance.png',
         alt: 'Behance logo',
-        href: 'https://gritifi.myportfolio.com/'
+        href: ' https://gritifi.myportfolio.com'
     },
     {
         icon: '/socials/instagram.png',
