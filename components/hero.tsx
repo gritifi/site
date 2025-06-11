@@ -1,9 +1,10 @@
 'use client';
 
-import { CONTENT } from '@/content';
+import { CONTENT, SOCIALS } from '@/content';
 import { motion } from 'motion/react';
 
 import Image from "next/image";
+import Link from 'next/link';
 
 const container = {
     initial: {},
@@ -23,6 +24,22 @@ const child = {
             ease: [0.33, 1, 0.33, 1]
         }
     }
+}
+
+type SocialLinkProps = {
+    href: string;
+    icon: string;
+    alt: string;
+}
+
+const SocialLink = ({ data }: Readonly<{ data: SocialLinkProps }>) => {
+    return (
+        <li>
+            <Link href={data.href} target='_blank' rel='noopener noreferrer'>
+                <Image src={data.icon} alt={data.alt} width={36} height={36} />
+            </Link>
+        </li>
+    )
 }
 
 export default function Hero() {
@@ -54,6 +71,13 @@ export default function Hero() {
                         >
                             {CONTENT.HERO.heading}
                         </motion.h1>
+
+                        <motion.ul className='flex gap-4 justify-center pt-6' variants={child}>
+                            {SOCIALS.map((social) => (
+                                <SocialLink key={social.href} data={social} />
+                            ))}
+                        </motion.ul>
+
                     </motion.div>
                 </div>
             </div>
